@@ -1,0 +1,102 @@
+.placeholder {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 3%;
+   
+}
+.col-centered{
+    margin: auto;
+}
+.border{
+    padding:20px;
+}
+h3{
+    font-weight:normal;
+}
+label {
+    font-weight:bold;
+    font-size: 0.75em;
+}
+#email {
+    border-radius: 2px;
+}
+#password {
+    border-radius: 2px;
+}
+.forgot {
+    float: right;
+    font-size: 0.9em;
+}
+
+form button {
+    width:100%;
+    background-color: goldenrod !important;
+    border-radius: 2px !important;
+    color: black !important;
+    margin-top: 1em;
+    font-size:0.75em !important;
+    border-color: lightslategrey !important;
+}
+.help{
+    margin-top:1em;
+    font-size: 0.75em;
+    font-weight:normal;
+}
+.new-user{
+    margin-top:1em;
+    overflow: hidden;
+    text-align: center;
+    font-size:0.75em;
+    color: lightslategrey;
+}
+.new-user:before, 
+.new-user:after{
+    background-color: lightslategrey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width:36%;
+}
+.new-user:before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+.new-user:after{
+    left: 0.5em;
+    margin-right:-50%;
+}
+.create-account{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.create-account button {
+    width: 100%;
+    background-color: lightgray;
+    color: black;
+    margin: 0px auto;
+    border-radius: 2px;
+    font-size: 0.75em;
+    border-color: lightslategrey;
+}
+footer {
+    margin-top:3%;
+    border-top: solid;
+    padding: 20px;
+    border-width: 1px;
+    width: 100%;
+    font-size: 0.75em;
+}
+footer p {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+* {
+    padding:0;
+    margin: 0;
+}
